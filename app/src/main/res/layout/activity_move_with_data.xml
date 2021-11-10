@@ -5,9 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MoveWithDataActivity">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/data_received"
-        android:id="@+id/tv_data_received" />
+        android:id="@+id/tv_data_received"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_menu"
+        android:id="@+id/_back"
+        android:layout_below="@+id/tv_data_received"/>
 </RelativeLayout>
